@@ -21,7 +21,7 @@ def update_tsv_with_spacer(tsv_filepath, csv_filepath, output_filepath):
 
 # Execution
 update_tsv_with_spacer(
-    tsv_filepath='entropy_advanced_strict.tsv', 
+    tsv_filepath='entropy_cumulative_stats.tsv', 
     csv_filepath='SpCas9_2020_sequence.csv', 
-    output_filepath='entropy_advanced_strict_updated.tsv'
+    output_filepath='entropy_cumulative_stats_updated.tsv'
 )

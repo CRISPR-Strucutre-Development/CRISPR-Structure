@@ -25,7 +25,7 @@ def append_ssc_to_tsv(updated_tsv_filepath, ssc_filepath, output_filepath):
 
 # Execution
 append_ssc_to_tsv(
-    updated_tsv_filepath='entropy_advanced_strict_updated.tsv', 
+    updated_tsv_filepath='entropy_cumulative_stats_updated.tsv', 
     ssc_filepath='SSC_sequence.out',
-    output_filepath='entropy_averages_strict_final.tsv' # Or overwrite the updated one
+    output_filepath='entropy_cumulative_stats_update_final.tsv' # Or overwrite the updated one
 )
