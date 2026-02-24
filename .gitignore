@@ -1,0 +1,11 @@
+# Ignore everything
+*
+# Allow directories
+!*/
+# Allow only Python and R
+!*.py
+!*.R
+!*.ipynb
+!*.sh
+!.gitignore
+!README.md
