@@ -1,11 +1,12 @@
 # Ignore everything
 *
-# Allow directories
+
+# Allow directories to be scanned
 !*/
-# Allow only Python and R
-!*.py
-!*.R
-!*.ipynb
-!*.sh
+
+# Recursively allow all Python files
+!**/*.py
+
+# Allow specific configuration files
 !.gitignore
 !README.md
