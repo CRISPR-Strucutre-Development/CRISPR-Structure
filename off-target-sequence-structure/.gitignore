@@ -1,0 +1,12 @@
+# Ignore everything in this directory
+*
+
+# Whitelist directories to allow traversal
+!*/
+
+# Whitelist your specific script extensions
+!*.py
+!*.slurm
+!*.R
+!*.sh
+!.gitignore
