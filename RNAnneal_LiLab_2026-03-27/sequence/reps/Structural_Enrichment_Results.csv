@@ -1,0 +1,7 @@
+Feature,Odds_Ratio,P_Value_Fisher,Fail_Rate_Locked_%,Fail_Rate_Open_%,Enrichment_Factor
+SL2_71_76_R1_Stack,0.16,0.1696,16.7,55.0,0.3
+SL2_71_76_R1_Pair,0.27,0.2164,25.0,55.6,0.45
+SL1_54_60_R1_Stack,0.27,0.2164,25.0,55.6,0.45
+SL1_54_60_R1_Pair,0.71,0.7127,41.7,50.0,0.83
+TL_32_37_R1_Stack,1.22,1.0,50.0,45.0,1.11
+TL_32_37_R1_Pair,1.25,1.0,50.0,44.4,1.12

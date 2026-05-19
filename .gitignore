@@ -1,6 +1,7 @@
 # Ignore everything
 *
-
+RNAnneal_LiLab_2026-03-27/**/*
+rna_data/**/*
 # Allow directories to be scanned
 !*/
 # Allow tracking the folder structure inside pdb_files
@@ -10,6 +11,10 @@
 
 # Recursively allow all Python files
 !**/*.py
+!RNAnneal_LiLab_2026-03-27/**/*
+!RNAnneal_LiLab_2026-03-27/**/*.py
+!rna_data/**/*
+!rna_data/**/*.py
 
 # Allow specific configuration files
 !.gitignore

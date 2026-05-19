@@ -1,0 +1,5 @@
+Region,Test,P_Value,Sig
+TL,Mann-Whitney,1.0868454914091174e-05,***
+SL1,Mann-Whitney,0.00015622752981918358,***
+SL2,Mann-Whitney,0.0011848488033425048,**
+SL3,Mann-Whitney,0.006449236210493634,**

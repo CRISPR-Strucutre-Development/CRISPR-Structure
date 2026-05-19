@@ -1,0 +1,4 @@
+# Auto-generated
+cd ..
+open sequence/reps/*.pdb
+open chimerax/color_ie_bins.cxc

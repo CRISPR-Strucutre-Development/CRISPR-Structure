@@ -1,0 +1,9 @@
+# Fixed bins for interaction entropy stored in the PDB B-factor field.
+# Best-effort view styling: enable silhouettes and set RNA nucleotides to tube/slab.
+set bgColor white
+graphics silhouettes true
+
+# Some ChimeraX builds apply color to the current atom display at the time a
+# representation is created, so we color before and after setting the nucleotides representation.
+nucleotides tube/slab
+color bfactor all palette "-1,white:-1e-6,white:0,blue:0.4999,blue:0.5,cornflower blue:1.499999,cornflower blue:1.5,yellow:2.499999,yellow:2.5,red:3.4999,red"
