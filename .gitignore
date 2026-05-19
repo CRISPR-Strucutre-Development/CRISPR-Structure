@@ -3,6 +3,10 @@
 
 # Allow directories to be scanned
 !*/
+# Allow tracking the folder structure inside pdb_files
+!pdb_files/
+!pdb_files/**/
+!**/.[gG][iI][tT][kKeEpP]*
 
 # Recursively allow all Python files
 !**/*.py
